@@ -1,0 +1,11 @@
+[package]
+name = "uefi-app-x64"
+version = "0.1.0"
+authors = ["Joshua Saraceni <toothbrush7777777@gmail.com>"]
+
+[dependencies]
+fixedvec = "0.2.3"
+
+[profile.release]
+debug = true
+lto = true

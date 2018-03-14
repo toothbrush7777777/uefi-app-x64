@@ -1,0 +1,17 @@
+[*]
+end_of_line = lf
+
+[*.{bat,json,md}]
+end_of_line = crlf
+indent_style = tab
+
+[LICENSE]
+end_of_line = crlf
+
+[*.{rs,toml}]
+indent_style = space
+indent_size = 4
+
+[Vagrantfile]
+indent_style = space
+indent_size = 2

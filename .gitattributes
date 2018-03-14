@@ -1,0 +1,5 @@
+* text=auto eol=lf
+*.bat   eol=crlf
+*.json  eol=crlf
+*.md    eol=crlf
+LICENSE eol=crlf
