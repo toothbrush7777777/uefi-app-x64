@@ -4,6 +4,7 @@ Example Rust project for building UEFI applications.
 
 ## Requirements
 
+ - rustup
  - Xargo
  - `lld-link`
    
@@ -29,10 +30,10 @@ RUST_TARGET_PATH=`pwd` xargo build --release --target uefi-app-x64
 
 1. Create a new VM of type `Other/Unknown (64-bit)`, using the existing blank hard disk provided — or create a new virtual hard disk and format it as GPT.
 2. Open the settings for the VM, go to _System > Motherboard_ and enable EFI.
-3. Mount the VHD.
 
 ### Copy the app and run
 
-1. Copy `target/uefi-app-x64/release/uefi-app-x64.efi` to the root of the VHD.
-2. Unmount the VHD.
-3. Boot the VM and type `fs0:\uefi-app-x64.efi` at the prompt.
+1. Mount the VHD.
+2. Copy `target/uefi-app-x64/release/uefi-app-x64.efi` to the root of the VHD.
+3. Unmount the VHD.
+4. Boot the VM, type `fs0:\uefi-app-x64.efi` at the prompt and press enter to run the app.
