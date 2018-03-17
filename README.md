@@ -18,10 +18,10 @@ Example Rust project for building UEFI applications.
 set "RUST_TARGET_PATH=%cd%" && xargo build --release --target uefi-app-x64
 ```
 
-### Ubuntu
+### Linux
 
 ```shell
-RUST_TARGET_PATH=`pwd` xargo build --release --target uefi-app-x64
+RUST_TARGET_PATH=$PWD xargo build --release --target uefi-app-x64
 ```
 
 ## Running with VirtualBox
