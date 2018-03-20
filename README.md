@@ -4,8 +4,8 @@ Example Rust project for building UEFI applications.
 
 ## Requirements
 
- - rustup
- - Xargo
+ - [rustup](https://rustup.rs/)
+ - Xargo (install or update with `cargo install -f xargo`)
 
 ## Building
 
