@@ -6,8 +6,7 @@
 	"target-pointer-width": "64",
 	"target-c-int-width": "32",
 	"os": "none",
-	"linker-flavor": "msvc",
-	"linker": "lld-link",
+	"linker-flavor": "lld-link",
 	"executables": true,
 	"features": "-mmx,-sse,+soft-float",
 	"disable-redzone": true,
@@ -15,7 +14,7 @@
 	"no-default-libraries": true,
 
 	"pre-link-args": {
-		"msvc": [
+		"lld-link": [
 			"/NOLOGO",
 			"/NXCOMPAT",
 			"/SUBSYSTEM:EFI_APPLICATION",

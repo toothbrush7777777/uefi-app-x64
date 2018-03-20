@@ -6,9 +6,6 @@ Example Rust project for building UEFI applications.
 
  - rustup
  - Xargo
- - `lld-link`
-   
-   Tested with LLD from LLVM 6 & 7.
 
 ## Building
 
