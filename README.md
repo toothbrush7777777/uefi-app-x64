@@ -4,8 +4,9 @@ Example Rust project for building UEFI applications.
 
 ## Requirements
 
- - [rustup](https://rustup.rs/)
- - Xargo (install or update with `cargo install -f xargo`)
+  - [rustup](https://rustup.rs/)
+  - Rust source (`rustup add component rust-src --toolchain nightly`)
+  - Xargo (install or update with `cargo install -f xargo`)
 
 ## Building
 
